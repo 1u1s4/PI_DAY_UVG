@@ -1,0 +1,19 @@
+\begin{frame}{Definición geométrica de $\pi$}
+    \centering
+    \begin{tikzpicture}[scale=1.2]
+        % Círculo
+        \draw[thick] (0,0) circle(2cm);
+        % Diámetro
+        \draw[thick,blue,<->] (-2,0) -- (2,0);
+        % Etiqueta del diámetro
+        \node[below,blue] at (0,0) {Diámetro $D$};
+        % Etiqueta perímetro
+        \draw[red,thick,->] (0,0) -- (1.41,1.41);
+        \node[red,right] at (1,1) {Radio $r=\frac{D}{2}$};
+        % Fórmula circunferencia
+        \node at (0,-2.5) {$\displaystyle \pi = \frac{\text{Circunferencia}}{\text{Diámetro}}$};
+    \end{tikzpicture}
+    \vspace{0.5cm}
+    
+    La constante $\pi$ es la razón entre la circunferencia y el diámetro de cualquier círculo.
+\end{frame}
